@@ -1,6 +1,47 @@
+.xl-text {
+  font-size: 75px;
+}
+
 .btn-outline-secondary {
   color: var(--bs-secondary);
   &:hover {
     color: #fff;
   }
+}
+
+.header .decoration-star {
+  top: 80px;
+  width: 500px;
+  opacity: 0.7;
+
+  &.left {
+    left: -200px;
+  }
+  &.right {
+    right: -200px;
+  }
+}
+
+@media(max-width: 992px) {
+  .xl-text {
+    font-size: 50px;
+  }
+
+  .navbar {
+    .btn-outline-secondary {
+      margin-top: 20px;
+    }
+  }
+
+  .header .decoration-star {
+    width: 250px;
+    &.left {
+      left: -100px;
+    }
+    &.right {
+      right: -100px;
+    }
+  }
+}
+@media(max-width: 576px) {
 }
