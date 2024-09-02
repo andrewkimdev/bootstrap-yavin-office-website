@@ -1,4 +1,13 @@
+// Font
 $font-family-sans-serif: 'Open Sans', sans-serif;
+
+// Colors
+$primary: #4555d2;
+$secondary: #cc2973;
+$dark: #191e47;
+$light: #f9fafe;
+$body-color: #494c52;
+$headings-color: $dark;
 
 // Import all of Bootstrap's css
 @import "bootstrap/scss/bootstrap";
