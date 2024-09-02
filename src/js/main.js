@@ -8,4 +8,8 @@ import '../scss/styles.scss';
 // Import all of Bootstrap's JavaScript
 import * as bootstrap from 'bootstrap';
 
+// Toggling 'navbar-sticky' on page scroll
 import './navbar-on-user-scroll';
+
+// Number increment animation effect on stats
+import './increment-stats';
