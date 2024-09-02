@@ -1,4 +1,6 @@
 {
+  "name": "yavin-office-bootstrap5-vanilla",
+  "author": "Brad Traversy via Udemy Course",
   "scripts": {
     "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
