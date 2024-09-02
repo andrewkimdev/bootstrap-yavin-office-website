@@ -47,5 +47,13 @@ $btn-padding-y-lg: $button-padding-y;
 // Navbar Toggler
 $navbar-toggler-border-radius: 5px;
 
+// Inputs
+$input-radius: 30px;
+$input-btn-padding-x: 1rem;
+$input-btn-padding-y: 0.7rem;
+$input-border-radius: $input-radius;
+$input-border-radius-sm: $input-radius;
+$input-border-radius-lg: $input-radius;
+
 // Import all of Bootstrap's css
 @import "bootstrap/scss/bootstrap";
