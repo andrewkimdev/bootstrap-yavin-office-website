@@ -13,3 +13,6 @@ import './navbar-on-user-scroll';
 
 // Number increment animation effect on stats
 import './increment-stats';
+
+// to-top-button handler
+import './to-top-button';
